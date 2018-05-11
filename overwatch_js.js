@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-    //image(pic_ingame, 0, 0);
+    // image(pic_ingame, 0, 0);
     /*
     if (timer.isFinished())
     {
