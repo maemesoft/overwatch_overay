@@ -18,6 +18,8 @@ function setup() {
 
     logo_status = SSANDBOX;
 
+    noStroke();
+
     //var timer = new Timer(5000);
     //timer.start();
 }
@@ -54,6 +56,17 @@ function draw() {
     */
     image(pic_ssandbox, 25, 100);
     image(pic_yourssu, 125, 100);
+
+    fill(24, 144, 186, 141);
+    rect(0, 0, 458, 32);
+    fill(252, 232);
+    rect(421, 0, 37, 32);
+    
+    fill(185, 33, 38, 141);
+    rect(824, 0, 458, 32);
+    fill(252, 232);
+    rect(825, 0, 37, 32);
+
 }
 
 function Timer(tempTotalTime) {
